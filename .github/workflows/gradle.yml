@@ -39,6 +39,7 @@ jobs:
         with:
           api-level: ${{ matrix.emulator-api }}
           arch: x86_64
+          distribution: 'emulator-darwin'  # Replace with your distribution
 
       - name: Build and Test with Gradle
         run: |
