@@ -3,7 +3,7 @@ name: Build and Test with CI
 on:
   push:
     branches:
-      - develop
+      - CI
   pull_request:
     branches:
       - develop
